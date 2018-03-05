@@ -1,0 +1,24 @@
+{
+  "name": "Grapesjs",
+  "version": "0.1.0",
+  "description": "Desktop application build with Electron",
+  "repository": "",
+  "scripts": {
+    "postinstall": "install-app-deps"
+  },
+  "devDependencies": {
+    "electron-builder": "19.48.2",
+    "electron": "1.7.9",
+    "gulp": "^3.9.1",
+    "mocha": "^4.0.1",
+    "spectron": "^3.7.2",
+    "webpack-stream": "^3.2.0"
+  },
+  "build": {
+    "appId": "com.electron.grapesjs",
+    "win": {},
+    "mac": {
+      "category": "your.app.category.type"
+    }
+  }
+}

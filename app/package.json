@@ -1,0 +1,12 @@
+{
+  "name": "Grapesjs",
+  "version": "0.1.0",
+  "description": "Grapesjs application built with Electron",
+  "author": {
+    "name": "John Doe",
+    "email": ""
+  },
+  "license": "MIT",
+  "main": "javascripts/main/index.js",
+  "dependencies": {}
+}
