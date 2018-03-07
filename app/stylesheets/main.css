@@ -725,7 +725,7 @@ perspective: 1000px;
     line-height: 35px;
     font-weight: 700;
     background-color: #fff;
-    color: #a290a5;
+    color: #a290a5ff;
     display: block;
     border-radius: 100%;
     margin: 0 10px;
@@ -769,10 +769,13 @@ perspective: 1000px;
     -webkit-app-region: drag;
 }
 
-.window-header .title {
+.window-header .logo {
     display: block;
-    width: 50%;
     float: left;
+    width: 242px;
+    height: 32px;
+    padding: 5px;
+    background-color: transparent;
 }
 
 .window-header .buttons {
