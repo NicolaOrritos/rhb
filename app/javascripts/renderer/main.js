@@ -1,10 +1,5 @@
-var lp = '../images/';
-var plp = 'http://placehold.it/350x250/';
-var images = [
-  lp+'team1.jpg', lp+'team2.jpg', lp+'team3.jpg', plp+'78c5d6/fff/image1.jpg', plp+'459ba8/fff/image2.jpg', plp+'79c267/fff/image3.jpg',
-  plp+'c5d647/fff/image4.jpg', plp+'f28c33/fff/image5.jpg', plp+'e868a2/fff/image6.jpg', plp+'cc4360/fff/image7.jpg',
-  lp+'work-desk.jpg', lp+'phone-app.png', lp+'bg-gr-v.png'
-];
+
+var images = [];
 
 var editor  = grapesjs.init({
 
@@ -338,7 +333,7 @@ var editor  = grapesjs.init({
 var pn = editor.Panels;
 var modal = editor.Modal;
 editor.Commands.add('canvas-clear', function() {
-  if(confirm('Areeee you sure to clean the canvas?')) {
+  if(confirm('Are you sure you want to clean the canvas?\nYou will lose the current HTML and start with an empty one.')) {
     var comps = editor.DomComponents.clear();
     setTimeout(function(){ localStorage.clear();}, 0);
   }
@@ -353,7 +348,7 @@ cmdm.add('open-info', function() {
   var mdlDialog = document.querySelector('.gjs-mdl-dialog');
   mdlDialog.className += ' ' + mdlClass;
   infoContainer.style.display = 'block';
-  modal.setTitle('About this demo');
+  modal.setTitle('About the Rapid HTML Builder');
   modal.setContent(infoContainer);
   modal.open();
   modal.getModel().once('change:open', function() {
@@ -422,13 +417,6 @@ editor.on('storage:store', function(e) { console.log('Stored ', e); });
 // Do stuff on load
 editor.on('load', function() {
   var $ = grapesjs.$;
-
-  // Show logo with the version
-  var logoCont = document.querySelector('.gjs-logo-cont');
-  document.querySelector('.gjs-logo-version').innerHTML = 'v' + grapesjs.version;
-  var logoPanel = document.querySelector('.gjs-pn-commands');
-  logoPanel.appendChild(logoCont);
-
 
   // Load and show settings and style manager
   var openTmBtn = pn.getButton('views', 'open-tm');

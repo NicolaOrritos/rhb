@@ -25,7 +25,7 @@
   -ms-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
   transition: all 0.216s ease;
-  z-index: 99;
+  z-index: 999;
 }
 
 [data-tooltip]:focus::after,

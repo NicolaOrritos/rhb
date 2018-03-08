@@ -1,5 +1,6 @@
 body,
 html {
+    width: 100%;
     height: 100%;
     margin: 0;
     overflow: hidden;
@@ -763,19 +764,20 @@ perspective: 1000px;
 .window-header {
     width: 100%;
     height: 40px;
-    overflow: hidden;
+
+    margin: 0;
 
     -webkit-user-select: none;
     -webkit-app-region: drag;
 }
 
 .window-header .logo {
-    display: block;
-    float: left;
+    display: inline;
     width: 178px;
     height: 26px;
     padding: 7px;
     background-color: transparent;
+    overflow: hidden;
 }
 
 .window-header .buttons {
@@ -785,12 +787,6 @@ perspective: 1000px;
 
     margin: 0;
     padding: 0;
-}
 
-.window-header .buttons i {
     -webkit-app-region: no-drag;
-}
-
-.back-color-red {
-    background-color: #aa0022;
 }
