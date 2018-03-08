@@ -1,10 +1,10 @@
 {
-  "name": "Grapesjs",
-  "version": "0.1.0",
-  "description": "Grapesjs application built with Electron",
+  "name": "RHB",
+  "version": "0.2.0",
+  "description": "Rapid HTML Builder/Prototyper, built with Electron and Grapesjs",
   "author": {
-    "name": "John Doe",
-    "email": ""
+    "name": "Nicola Orritos",
+    "email": "nicola.orritos@gmail.com"
   },
   "license": "MIT",
   "main": "javascripts/main/index.js",

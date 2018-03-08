@@ -1,29 +1,18 @@
-# Grapesjs
+# Rapid HTML Builder
 
-> My Grapesjs app built with Electron
+> Desktop app for building/prototyping HTML
 
 
-## Dev
+## Install
 
-```
-$ npm install
-```
-
-### Run
-
-```
-$ bozon start
-```
-
-### Package
-
-```
-$ bozon package
-```
-
-Builds the app for OS X, Linux, and Windows, using [electron-builder](https://github.com/electron-userland/electron-builder).
+Simply run the "RHB-Setup_v0.2.0.exe" and follow the instructions
 
 
 ## License
 
-The MIT License (MIT) © John Doe 2018
+The MIT License (MIT) © Nicola Orritos 2018
+
+This work is based on the following awesome projects:
+- [Electron](http://electronjs.org)
+- [Grapesjs](http://grapesjs.com)
+- [Bozon](http://github.com/railsware/bozon)

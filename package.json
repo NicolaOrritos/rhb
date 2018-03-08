@@ -1,8 +1,12 @@
 {
-  "name": "Grapesjs",
-  "version": "0.1.0",
-  "description": "Desktop application build with Electron",
-  "repository": "",
+  "name": "RHB",
+  "version": "0.2.0",
+  "description": "Rapid HTML Builder/Prototyper, built with Electron and Grapesjs",
+  "author": {
+    "name": "Nicola Orritos",
+    "email": "nicola.orritos@gmail.com"
+  },
+  "license": "MIT",
   "scripts": {
     "postinstall": "install-app-deps"
   },
@@ -16,9 +20,6 @@
   },
   "build": {
     "appId": "com.electron.grapesjs",
-    "win": {},
-    "mac": {
-      "category": "your.app.category.type"
-    }
+    "win": {}
   }
 }
