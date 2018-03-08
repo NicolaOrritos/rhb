@@ -772,16 +772,16 @@ perspective: 1000px;
 .window-header .logo {
     display: block;
     float: left;
-    width: 242px;
-    height: 32px;
-    padding: 5px;
+    width: 178px;
+    height: 26px;
+    padding: 7px;
     background-color: transparent;
 }
 
 .window-header .buttons {
     display: block;
     float: right;
-    height: 48px;
+    height: 40px;
 
     margin: 0;
     padding: 0;
