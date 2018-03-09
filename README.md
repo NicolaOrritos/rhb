@@ -5,7 +5,7 @@
 
 ## Install
 
-Simply run the "RHB-Setup_v0.2.0.exe" and follow the instructions
+Simply run the "RHB-Setup_v0.4.0.exe" and follow the instructions
 
 
 ## License
