@@ -100,6 +100,7 @@ electron.app.on('ready', function()
         else if (req === 'close')
         {
             window.close()
+            process.exit()
         }
     })
 })
