@@ -35,7 +35,94 @@
     </div>
 
     <div id="gjs">
-        Drag and drop here the components from the right panel!
+        <style>
+
+            * {
+              box-sizing: border-box;
+            }
+            html, body, #wrapper {
+              min-height: 100%;
+            }
+            body {
+              margin: 0;
+              height: 100%;
+              background-color: #fff
+            }
+            #wrapper {
+              overflow: auto;
+              overflow-x: hidden;
+            }
+
+
+            .gjs-dashed *[data-highlightable] {
+              outline: 1px dashed rgba(170,170,170,0.7);
+              outline-offset: -2px;
+            }
+
+            .gjs-comp-selected {
+              outline: 3px solid #3b97e3 !important;
+              outline-offset: -3px;
+            }
+
+            .gjs-comp-selected-parent {
+              outline: 2px solid #ffca6f !important
+            }
+
+            .gjs-no-select {
+              user-select: none;
+              -webkit-user-select:none;
+              -moz-user-select: none;
+            }
+
+            .gjs-freezed {
+              opacity: 0.5;
+              pointer-events: none;
+            }
+
+            .gjs-no-pointer {
+              pointer-events: none;
+            }
+
+            .gjs-plh-image {
+              background: #f5f5f5;
+              border: none;
+              height: 50px;
+              width: 50px;
+              display: block;
+              outline: 3px solid #ffca6f;
+              cursor: pointer;
+              outline-offset: -2px
+            }
+
+            .gjs-grabbing {
+              cursor: grabbing;
+              cursor: -webkit-grabbing;
+            }
+
+            * ::-webkit-scrollbar-track {
+              background: rgba(0, 0, 0, 0.1)
+            }
+
+            * ::-webkit-scrollbar-thumb {
+              background: rgba(255, 255, 255, 0.2)
+            }
+
+            * ::-webkit-scrollbar {
+              width: 10px
+            }
+
+
+            * { box-sizing: border-box; } body {margin: 0;}
+        </style>
+        <div id="wrapper" data-highlightable="1" class="">
+            <div class="row" data-highlightable="1">
+                <div class="cell" data-highlightable="1">
+                    <div class="c1334" data-highlightable="1" contenteditable="false">Drag and drop here the components from the right panel!</div>
+                </div>
+            </div>
+        </div>
+        <div class="gjs-css-rules"><style>.row{display:flex;justify-content:flex-start;align-items:stretch;flex-wrap:nowrap;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;}</style><style>@media (max-width: 768px){.row{flex-wrap:wrap;}}</style><style>.cell{min-height:75px;flex-grow:1;flex-basis:100%;}</style><style>.c1310{padding:10px;}</style><style>.c1334{padding:10px;font-weight:700;font-family:Arial, Helvetica, sans-serif;font-size:40px;color:#482a53;line-height:80px;}</style></div>
+        <div class="gjs-js-cont"></div>
     </div>
 
     <div id="info-panel" style="display:none">
@@ -47,10 +134,10 @@
             <a class="info-panel-link gjs-four-color" target="_blank" href="https://github.com/artf/grapesjs">GrapesJS</a>.
             <br /><br />
             For any problem with this builder, open an issue on the
-            <a class="info-panel-link gjs-four-color" target="_blank" href="https://github.com/NicolaOrritos/rhb">RHB repository</a>
+            <a class="info-panel-link gjs-four-color" target="_blank" href="https://github.com/NicolaOrritos/rhb">RHB repository</a>.
+            <br />
             Contributions and suggestions are welcome!
             <br /><br />
-            <br />
             Also, if you like the <b>GrapesJS</b> project support it with a donation or become a backer/sponsor via
             <a class="info-panel-link gjs-four-color" target="_blank" href="https://opencollective.com/grapesjs">Open Collective</a>
         </div>
