@@ -5,8 +5,13 @@
 
 ## Install
 
-Simply run the "RHB-Setup_v0.4.0.exe" and follow the instructions
+Go to the [releases](https://github.com/NicolaOrritos/rhb/releases) page and download an installer suitable for your platform. I'm currently supporting Windows and Linux.  
+Then simply run the "RHB-Setup_vX.Y.Z.exe" installer and follow the instructions.  
+On Linux the [AppImage](https://appimage.org/) provided requires no installation.
 
+## Screenshots
+
+![Windows Screenshot][screenshot]
 
 ## License
 
@@ -16,3 +21,8 @@ This work is based on the following awesome projects:
 - [Electron](http://electronjs.org)
 - [Grapesjs](http://grapesjs.com)
 - [Bozon](http://github.com/railsware/bozon)
+
+
+
+
+[screenshot]: https://raw.githubusercontent.com/NicolaOrritos/rhb/master/screenshots/20180309.png "Windows Screenshot"
