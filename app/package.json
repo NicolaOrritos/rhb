@@ -1,6 +1,6 @@
 {
   "name": "RHB",
-  "version": "0.6.0",
+  "version": "0.6.2",
   "description": "Rapid HTML Builder/Prototyper, built with Electron and Grapesjs",
   "author": {
     "name": "Nicola Orritos",
