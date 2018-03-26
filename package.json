@@ -11,12 +11,12 @@
     "postinstall": "install-app-deps"
   },
   "devDependencies": {
-    "electron": "^1.8.2",
-    "electron-builder": "^19.56.2",
-    "gulp": "^3.9.1",
-    "mocha": "^4.0.1",
-    "spectron": "^3.7.2",
-    "webpack-stream": "^3.2.0"
+    "electron": "1.8.2",
+    "electron-builder": "19.56.2",
+    "gulp": "3.9.1",
+    "mocha": "4.1.0",
+    "spectron": "3.8.0",
+    "webpack-stream": "3.2.0"
   },
   "build": {
     "appId": "com.electron.grapesjs",
