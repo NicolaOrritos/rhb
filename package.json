@@ -13,7 +13,7 @@
   "devDependencies": {
     "electron": "1.8.8",
     "electron-builder": "20.38.5",
-    "gulp": "3.9.1",
+    "gulp": "4.0.2",
     "mocha": "5.2.0",
     "spectron": "3.8.0",
     "webpack-stream": "5.2.1"
