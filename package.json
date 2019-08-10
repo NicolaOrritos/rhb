@@ -15,7 +15,7 @@
     "electron-builder": "20.38.5",
     "gulp": "3.9.1",
     "mocha": "5.2.0",
-    "spectron": "3.8.0",
+    "spectron": "8.0.0",
     "webpack-stream": "5.2.1"
   },
   "build": {
