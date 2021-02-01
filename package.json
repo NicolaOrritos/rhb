@@ -16,7 +16,7 @@
     "gulp": "3.9.1",
     "mocha": "5.2.0",
     "spectron": "3.8.0",
-    "webpack-stream": "5.2.1"
+    "webpack-stream": "6.1.2"
   },
   "build": {
     "appId": "com.electron.grapesjs",
