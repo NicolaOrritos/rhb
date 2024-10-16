@@ -11,7 +11,7 @@
     "postinstall": "install-app-deps"
   },
   "devDependencies": {
-    "electron": "1.8.8",
+    "electron": "33.0.1",
     "electron-builder": "20.38.5",
     "gulp": "3.9.1",
     "mocha": "5.2.0",
